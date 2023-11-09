@@ -15,6 +15,10 @@ Emerging data suggests that HER2 intratumoral heterogeneity (ITH) is associated 
 All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the Harvard Tissue Atlas (https://www.tissue-atlas.org/atlas-datasets/guerriero-lin-santagata-2023/)
 <br>
 
+## Codes for imaging data processing
+High-plex whole-slide images were acquired using tissue cyclic immunofluorescence (t-CyCIF; Lin et al, 2018) and then stitched and registered using ASHLAR (https://github.com/labsyspharm/ashlar). For single cell segmentation, a random forest classifier was trained in Ilastik (https://www.ilastik.org/download.html) to generate probability maps of the following classes: Background, Cytoplasm, Nuclei. Watershedding was performed in Matlab on these maps to segment individual nuclei, and single cell features were extracted with Matlab's regionprops function (See Image_processing_scripts). 
+<br>
+
 ## FUNDING
 This work was supported by the Dana-Farber/Harvard Cancer Center (DF/HCC) Specialized Program of Research Excellence (SPORE) in Breast Cancer P50 CA1685404 Career Enhancement Award, The Susan G. Komen Foundation Career Catalyst Award CCR18547597, The Terri Brodeur Breast Cancer Foundation, The Ludwig Center at Harvard, NIH NCI R37-CA269499, U2C-CA233280 and U2C-CA233262, the Gray Foundation, R50-CA274277 and the Center for Cancer Systems Pharmacology NCI U54-CA225088.
 <br>
