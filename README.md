@@ -4,6 +4,8 @@
 <br>
 Guerriero JL, Lin JR, Pastorello RG, Du Z, Chen YA, Townsend M, Shimada K, Hughes ME, Ren S, Tayob N, Zheng K, Mei S, Patterson A, Taneja K, Metzger O, Tolaney SM, Lin NU, Dillon DA, Schnitt SJ, Sorger PK, Mittendorf EA, Santagata S
 <br>
+<br>
+<br>
 <img src="./docs/NPJ_Figure1_snapshot.JPG" style="max-width:700px;width:100%">
 
 ## SUMMARY
