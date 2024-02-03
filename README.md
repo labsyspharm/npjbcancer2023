@@ -13,6 +13,7 @@ Emerging data suggests that HER2 intratumoral heterogeneity (ITH) is associated 
 
 ## ACCESS THE DATA
 All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via Github ([https://www.tissue-atlas.org/atlas-datasets/guerriero-lin-santagata-2023/](https://github.com/labsyspharm/npjbcancer2023))
+Additional data will be provide upon request (jia-ren_lin@hms.harvard.edu)
 <br>
 
 ## Codes for imaging data processing
